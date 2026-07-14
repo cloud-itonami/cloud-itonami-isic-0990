@@ -1,0 +1,16 @@
+# Clojure
+.cpcache
+.m2
+target
+*.jar
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test
+.nrepl-port

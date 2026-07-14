@@ -1,0 +1,11 @@
+[{:itonami.blueprint/social-impact [:safety :equipment-coordination :logistics-support]
+  :itonami.blueprint/domain :mining/support-services
+  :itonami.blueprint/required-technologies [:robotics :identity :forms :dmn :bpmn :audit-ledger]
+  :itonami.blueprint/isic-08 "0990"
+  :itonami.blueprint/name "Mining Services Contractor Coordination"
+  :itonami.blueprint/governor :mining-services-governor
+  :itonami.blueprint/robotics true
+  :db/id -1
+  :itonami.blueprint/status :public-oss
+  :itonami.blueprint/id "cloud-itonami-isic-0990"
+  :itonami.blueprint/license "AGPL-3.0-or-later"}]
