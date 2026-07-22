@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability in cloud-itonami-isic-0910, please
+If you discover a security vulnerability in cloud-itonami-isic-0990, please
 **do not open a public issue**. Instead, email the cloud-itonami project team
 with a detailed description of the vulnerability, affected versions, and
 recommended remediation.

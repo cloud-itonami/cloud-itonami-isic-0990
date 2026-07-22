@@ -1,6 +1,6 @@
 # Governance
 
-cloud-itonami-isic-0910 is an Open Occupation Blueprint under the cloud-itonami
+cloud-itonami-isic-0990 is an Open Occupation Blueprint under the cloud-itonami
 collective. It is maintained by cloud-itonami project leadership and the broader
 open-source community.
 
