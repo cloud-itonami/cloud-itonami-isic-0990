@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for your interest in contributing to cloud-itonami-isic-0910!
+Thank you for your interest in contributing to cloud-itonami-isic-0990!
 
 ## How to Contribute
 
