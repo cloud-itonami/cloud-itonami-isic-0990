@@ -1,0 +1,22 @@
+{:physics/schema "itonami.physical-ai.spec.v1"
+ :repo "cloud-itonami/cloud-itonami-isic-0990"
+ :cases
+ [{:id :consumables-delivery-decline
+   :kind :transport
+   :procedure "mine-site logistics robot carries drilling consumables up the ramp of the decline to a contractor's work face"
+   :params {:mass-kg 1500.0 :distance-m 400.0 :v-max-mps 2.5 :a-max-mps2 0.4 :brake-decel-mps2 1.0
+            :drive-force-n 4000.0 :crr 0.03 :cog-height-m 0.9 :support-half-length-m 1.0
+            :payload-kg 500.0 :max-time-s 3000.0}
+   :sweep {:param :slope-deg :values [0.0 3.0 6.0 8.0 10.0 12.0]}
+   :quantity :cycle-time-s
+   :limit {:max 240.0 :basis "estimate: one 400 m decline leg within the ~4 min service slot of the shift plan"}
+   :boundary {:lo 0.0 :hi 20.0}}
+  {:id :core-box-lift
+   :kind :manipulator
+   :procedure "robot arm lifts a full core box from the drill rig tray onto the transport pallet"
+   :params {:l1-m 0.70 :l2-m 0.60 :m1-kg 12.0 :m2-kg 8.0
+            :from [0.70 0.0] :to [0.20 0.90] :duration-s 2.5 :steps 500}
+   :sweep {:param :payload-kg :values [5.0 10.0 15.0 20.0 25.0]}
+   :quantity :peak-tau1-nm
+   :limit {:max 300.0 :basis "estimate: continuous shoulder torque of a ~25 kg payload industrial arm"}
+   :boundary {:lo 1.0 :hi 80.0}}]}
