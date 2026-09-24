@@ -1,5 +1,5 @@
 (ns mining-services.governor-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [mining-services.governor :as governor]
             [mining-services.store :as store]))
 
