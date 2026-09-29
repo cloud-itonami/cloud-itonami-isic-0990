@@ -118,6 +118,6 @@ without touching the governor or actor wiring.
 
 ## References
 
-- ADR-2607011000 / CLAUDE.md: itonami actor pattern (StateGraph + separate Governor + human-in-the-loop interrupt)
+- ADR-2607011000 / AGENTS.md: itonami actor pattern (StateGraph + separate Governor + human-in-the-loop interrupt)
 - ADR-2607062330 / ADR-2607062400: kotoba wasm runtime and WASM component contracts
 - kotoba-lang/occupation: ISIC-08 0990 capability registry
